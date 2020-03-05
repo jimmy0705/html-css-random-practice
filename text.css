@@ -1,3 +1,9 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body{
     font-size: 18px;
 }
@@ -9,10 +15,14 @@ h1,h2{
 
 h1{
     font-size: 40px;
+    margin-bottom: 15px;
+    border-top: 2px solid black;
+    border-bottom: 2px solid yellow;
 }
 
 h2{
     font-size: 25px;
+    margin-bottom: 10px;
 }
 
 p{
@@ -23,9 +33,35 @@ p{
 .main-text{
 
     font-size: 18px;
+    margin-bottom: 20px;
+    
+    background-color:rgb(215, 214, 218);
+    padding-right: 25px;
+}
+.blog1{
+    width: 70%;
+    float: left;
+    /* padding-right: 25px; */
+}
+
+.blog1 img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
 }
 
 #author-text{
-    font-size: 30px;
+    font-size: 18px;
+    width: 30%;
+    background-color:aqua;
+    float: left;
 
+}
+
+.container{
+    width: 1000px;
+    /* margin-left: auto;
+    margin-right: auto; */
+    /* margin: top right buttom left; */
+    margin: 20px auto 30px auto;
 }
