@@ -19,3 +19,13 @@ p{
     text-align: justify;
     color: lightslategray;
 }
+
+.main-text{
+
+    font-size: 18px;
+}
+
+#author-text{
+    font-size: 30px;
+
+}
