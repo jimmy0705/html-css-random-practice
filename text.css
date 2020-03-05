@@ -42,12 +42,15 @@ p{
     width: 70%;
     float: left;
     /* padding-right: 25px; */
+    position: relative;
+    padding-top: 25px;
 }
 
 .blog1 img{
     width: 100px;
     height: 100px;
     border-radius: 50%;
+    
 }
 
 #author-text{
@@ -64,4 +67,10 @@ p{
     margin-right: auto; */
     /* margin: top right buttom left; */
     margin: 20px auto 30px auto;
+}
+
+.date {
+    position: absolute;
+    top:0;
+    right: 10px;
 }
