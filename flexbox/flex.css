@@ -1,0 +1,30 @@
+
+.box {
+    text-align: center;
+    padding: 10px;
+    font-size: 80px;
+    color: white;
+    border: 1px solid black;
+}
+
+.box-1{background-color: green;}
+.box-2{background-color: hotpink;}
+.box-3{background-color: indigo;}
+.box-4{background-color: lightgrey;}
+.box-5{background-color: rgb(122, 255, 255);}
+.box-6{background-color: maroon;}
+.box-7{background-color: mediumvioletred;}
+.box-8{background-color: moccasin;}
+.box-9{background-color: olive;}
+.box-10{background-color: orange;}
+
+
+.container{
+    display: flex;
+    border: 10px solid goldenrod;
+    height: 100vh;
+
+    flex-direction: column;
+}
+
+
