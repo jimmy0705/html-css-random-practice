@@ -4,7 +4,8 @@
     padding: 10px;
     font-size: 80px;
     color: white;
-    border: 1px solid black;
+    border: 2px solid black;
+    /* margin: 10px; */
 }
 
 .box-1{background-color: green;}
@@ -22,9 +23,11 @@
 .container{
     display: flex;
     border: 10px solid goldenrod;
-    height: 100vh;
+    flex-direction: row;
+    justify-content: center;
+    /* height: 100vh; */
 
-    flex-direction: column;
+    /* flex-direction: column; */
 }
 
 
