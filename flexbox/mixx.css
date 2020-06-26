@@ -1,0 +1,38 @@
+*{
+       
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.box{
+border: 2px solid black;
+background-color: cornflowerblue;
+/* margin: 20px; */
+padding: 30px;
+width: 100%;
+}
+
+.box1,.box2,.box3{
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+}
+
+.box1{
+  background: aqua;
+}
+
+.box2{
+    background: blueviolet;
+}
+
+.box3{
+    background: crimson;
+}
+
+.postion-1-area {
+    background: #cbd5d5;
+    border: 1px solid black;
+    height: 300px;
+}
