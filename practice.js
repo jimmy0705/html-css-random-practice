@@ -20,3 +20,17 @@ console.log(arr2);
 console.log(arr1);
 
 //console.log(arr1==arr2);
+
+
+function parent (num){
+
+    var xx = "two";
+
+    return function inner(){
+        console.log(` ${xx} and ${num}`);
+    }
+
+}
+
+
+parent()()
